@@ -63,19 +63,19 @@ questions = [
 ]
 
 ### 🧠 How It Works
-Model Loading:
+- Model Loading:
 The ModelManager class loads the model and tokenizer, either from Hugging Face or from a local directory if previously saved.
 
-PDF Text Extraction:
+- PDF Text Extraction:
 The PDFExtractor class downloads and extracts text from the provided PDF file.
 
-Text Preprocessing:
+- Text Preprocessing:
 The extracted text is normalized by removing extra spaces and cleaning it up for better processing.
 
-Question Answering:
+- Question Answering:
 The QAGenerator class feeds the preprocessed text to the FLAN-T5 model and generates answers to the predefined questions.
 
-Answer Output:
+- Answer Output:
 The answers are printed to the console for each question, providing direct quotes from the document.
 
 ### 📊 Example Output
@@ -90,12 +90,12 @@ A: "Prices range from $750,000 to $1.2 million."
 ...
 ### ⚙️ Notes
 Model Saving:
-The model and tokenizer will be saved locally after the first download. This prevents re-downloading the model in future runs.
+- The model and tokenizer will be saved locally after the first download. This prevents re-downloading the model in future runs.
 
-Text Length Limitation:
+- Text Length Limitation:
 The model has a token limit (2048 tokens). For documents longer than this, you may need to truncate or split the text.
 
-PDF Format:
+- PDF Format:
 Ensure the URL you provide points to a raw PDF file (not a webpage or HTML page).
 
 ### 📝 License
