@@ -32,9 +32,9 @@ pip install torch transformers requests PyMuPDF
 ### 🚀 Setup Instructions
 Download the Project Clone or download the repository to your local machine:
 
-git clone <repository_url>
-cd <project_directory>
-Download Pre-trained Model The project uses the google/flan-t5-large model. When you run the program for the first time, it will automatically download the model and tokenizer. If you'd like to save the model locally, it will be stored in the ./saved_model directory.
+- git clone <repository_url>
+- cd <project_directory>
+- Download Pre-trained Model The project uses the google/flan-t5-large model. When you run the program for the first time, it will automatically download the model and tokenizer. If you'd like to save the model locally, it will be stored in the ./saved_model directory.
 
 ### 🛠 Running the Project
 After installing the dependencies and downloading the model, follow these steps to execute the project:
