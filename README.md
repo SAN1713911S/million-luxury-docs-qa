@@ -41,17 +41,17 @@ After installing the dependencies and downloading the model, follow these steps 
 
 Run the Jupyter Notebook:
 
-Open the notebook in a Jupyter environment:
+- Open the notebook in a Jupyter environment:
 
-jupyter notebook Million_Technical_AI_Engineer_Test.ipynb
+- jupyter notebook Million_Technical_AI_Engineer_Test.ipynb
 
-Extract and Process Text: The script will automatically download the PDF from a provided URL, extract its text, preprocess it, and then generate answers for predefined questions.
+- Extract and Process Text: The script will automatically download the PDF from a provided URL, extract its text, preprocess it, and then generate answers for predefined questions.
 
-Customize PDF URL and Questions To customize the document or ask different questions, modify the following:
+- Customize PDF URL and Questions To customize the document or ask different questions, modify the following:
 
-Change the PDF URL: Update the github_pdf_url variable in the notebook to point to your desired PDF document.
+- Change the PDF URL: Update the github_pdf_url variable in the notebook to point to your desired PDF document.
 
-Edit Questions: Modify the list of questions based on the information you want to extract.
+- Edit Questions: Modify the list of questions based on the information you want to extract.
 
 Example of questions in the script:
 
@@ -61,7 +61,8 @@ questions = [
     "How many stories does the Bayfront Residences building have?",
     ...
 ]
-🧠 How It Works
+
+### 🧠 How It Works
 Model Loading:
 The ModelManager class loads the model and tokenizer, either from Hugging Face or from a local directory if previously saved.
 
