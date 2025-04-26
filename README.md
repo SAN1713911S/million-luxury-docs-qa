@@ -109,6 +109,6 @@ For further questions or issues, please reach out to:
 
 Email: santiago.nino02.usa@gmail.com
 
-GitHub: [your-github-profile
-](https://github.com/SAN1713911S)
+GitHub: [https://github.com/SAN1713911S](
+
 Thank you for checking out the Million Technical AI Engineer Test project!
